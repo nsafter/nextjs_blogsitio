@@ -33,7 +33,6 @@ export default function signup() {
                 className="border border-gray-300 p-1 w-full"
                 type="password"
                 id="password"
-            =
               />
             </div>
             <div className="mb-2">
@@ -47,7 +46,6 @@ export default function signup() {
                 className="border border-gray-300 p-1 w-full"
                 type="password"
                 id="password"
-               
               />
             </div>
             <div className="mb-2">
@@ -61,7 +59,8 @@ export default function signup() {
                 className="border border-gray-300 p-1 w-full"
                 type="password"
                 id="password"
-             
+                //   value={password}
+                //   onChange={handlePasswordChange}
               />
             </div>
             <div className="flex items-center justify-between">
